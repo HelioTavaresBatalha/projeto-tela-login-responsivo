@@ -78,7 +78,7 @@ div.campo>label {
     display: none;
 }
 
-div.campo > i {
+div.campo>i {
     color: white;
     font-size: 2em;
     width: 42.2px;
@@ -95,7 +95,8 @@ div.campo>input {
     padding: 4px;
     transform: translateY(-13px);
 }
-div.campo > input:focus-within {
+
+div.campo>input:focus-within {
     background-color: white;
 }
 
@@ -134,7 +135,8 @@ form>a.botao {
 form>a.botao:hover {
     background-color: #49a09d;
 }
-form > a.botao > i {
+
+form>a.botao>i {
     font-size: 0.8em;
 }
 
